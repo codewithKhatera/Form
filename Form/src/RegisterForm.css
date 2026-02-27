@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  
+  body, html {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #87CEFA, #FFF5E1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    background-color: rgba(255,255,255,0.85);
+  }
+  
+  
+  .register-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  
+  .input-group {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* همه input ها */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    align-self: flex-start;
+  }
+  
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+ 
+  .success {
+    color: green;
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+ 
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #FFD700; /* حالت عادی زرد طلایی */
+  }
+  
+  button.success {
+    background-color: green;
+  }
