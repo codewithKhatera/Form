@@ -2,9 +2,9 @@
 
 A simple **Register Form** built with **React Hook Form** and **Yup validation**, with a modern and beautiful design.
 
-![Form Screenshot](./Screenshot/1.png)  
-![Form Screenshot](./Screenshot/2.png)  
-![Form Screenshot](./Screenshot/3.png)  
+![Form Screenshot](./Form/Screenshot/1.png)  
+![Form Screenshot](./Form/Screenshot/2.png)  
+![Form Screenshot](./Form/Screenshot/1.png)  
 ---
 
 ## Features
